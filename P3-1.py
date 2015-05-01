@@ -7,6 +7,6 @@ def bunnyEars(n):
             return bunnyEars(n-1) + 2
         else:
             return bunnyEars(n-1) + 3
-number = input("Enter: ")
+number = int(input("Enter a number: "))
 number
 print(bunnyEars(number))
